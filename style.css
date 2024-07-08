@@ -290,6 +290,10 @@ nav .hire-btn a {
     display: inline-block;
 }
 
+.price-section {
+    margin: 160px 0;
+}
+
 .price-card {
     background-color: #151615;
     outline: 2px solid #720F90;
@@ -389,4 +393,58 @@ nav .hire-btn a {
 
 .price-card .popular .card-list ul li i {
     color: #fff;
+}
+
+/* edu start */
+
+
+.experience-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    flex-direction: column;
+    margin: 10px 300px;
+    width: fit-content;
+}
+
+.experience-list .list {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.experience-list .list .date p {
+    border: 3px solid #9914C1;
+    background-color: transparent;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 3px;
+    color: #9914C1;
+}
+
+
+.experience-list .content p {
+    font-size: .9vw;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin: 10px 0;
+    width: 100%;
+    text-align: start;
+}
+
+.experience-list .heading h1 {
+    font-size: 2vw;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.education-title h1 {
+    margin: 160px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
 }
